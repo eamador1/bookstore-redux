@@ -8,14 +8,13 @@ import Books from './pages/Books';
 import Categories from './pages/Categories';
 
 export default function App() {
-  const activeClassName = 'nav-active';
   return (
     <BrowserRouter>
       <section>
         <nav>
           <li>Bookstore CMS</li>
-          <NavLink to="" className={({ isActive }) => isActive && activeClassName}>Books</NavLink>
-          <NavLink to="categories" className={({ isActive }) => isActive && activeClassName}>Categories</NavLink>
+          <NavLink to="" activeclassname="active-link" className>Books</NavLink>
+          <NavLink to="categories" activeclassname="active-link">Categories</NavLink>
         </nav>
 
       </section>
