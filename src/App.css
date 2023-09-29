@@ -10,9 +10,9 @@
 ul,
 li,
 a {
-list-style: none;
-text-decoration: none;
-color: inherit;
+  list-style: none;
+  text-decoration: none;
+  color: inherit;
 }
 
 .active {
