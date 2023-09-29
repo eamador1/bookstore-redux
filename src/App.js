@@ -10,14 +10,13 @@ import Categories from './pages/Categories';
 export default function App() {
   return (
     <BrowserRouter>
-      <section>
+      <header>
         <nav>
           <li>Bookstore CMS</li>
           <NavLink to="" activeclassname="active-link" className>Books</NavLink>
           <NavLink to="categories" activeclassname="active-link">Categories</NavLink>
         </nav>
-
-      </section>
+      </header>
       <Routes>
         <Route path="/" element={<Books />} />
         <Route path="/categories" element={<Categories />} />
