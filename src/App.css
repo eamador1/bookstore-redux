@@ -7,8 +7,17 @@
   pointer-events: none;
 }
 
-li {
-  list-style: none;
+ul,
+li,
+a {
+list-style: none;
+text-decoration: none;
+color: inherit;
+}
+
+.active {
+  color: #0290ff;
+  text-decoration: underline;
 }
 
 nav {
