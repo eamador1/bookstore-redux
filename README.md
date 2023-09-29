@@ -70,9 +70,9 @@ Clone this repository to your desired folder:
 Example commands:
 
 ```sh
-  mkdir calculator
-  cd calculator
-  git clone https://github.com/eamador1/math-magician-calculator.git
+  mkdir bookstore
+  cd bookstore
+  git clone https://github.com/eamador1/bookstore-redux.git
 ```
 
 ### Install <a name="install">
@@ -103,7 +103,7 @@ npm run
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Create a fully functional bookstopre website**
+- [ ] **Create a fully functional bookstore website**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
