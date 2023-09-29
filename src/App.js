@@ -21,7 +21,7 @@ export default function App() {
       </section>
       <Routes>
         <Route path="/" element={<Books />} />
-        <Route path="categories" element={<Categories />} />
+        <Route path="/categories" element={<Categories />} />
       </Routes>
     </BrowserRouter>
   );
