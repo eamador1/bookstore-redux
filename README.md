@@ -28,7 +28,7 @@
 
 # 📖 [BOOKSTORE WITH REDUX] <a name="about-project"></a>
 
-**BOOKSTORE WITH REDUX** In this project, I lay the foundations for a Bookstore website. I create the user interface using React.
+**BOOKSTORE WITH REDUX** In this step, I implement Redux Toolkit inside of the Bookstore React application. I setup a Redux store and create a slice to save the state and reducers
 
 ## 🛠 Built With <a name="built-with"></a>
 
