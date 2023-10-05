@@ -1,3 +1,6 @@
 div {
   margin-top: 3vh;
+  display: flex;
+  flex-direction: column;
 }
+
