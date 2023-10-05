@@ -36,7 +36,7 @@ function Form() {
         onChange={(e) => setAuthor(e.target.value)}
       />
       <button type="submit" className="submit">
-        ADD
+        ADD BOOK
       </button>
     </form>
   );
