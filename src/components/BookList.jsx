@@ -1,24 +1,24 @@
 import React from 'react';
+import { useSelector } from 'react-redux';
 import Book from './Book';
-import Button from './Button';
 
-function BookList() {
+const BookList = () => {
+  const { bookItems } = useSelector((store) => store.books);
   return (
-    <>
-      <Book category="Action" title="The Hunger Games" author="Suzanne Collins" />
-      <Button>Comments</Button>
-      <Button>Remove</Button>
-      <Button>Edit</Button>
-      <Book category="Science Fiction" title="Dune" author="Frank Herbert" />
-      <Button>Comments</Button>
-      <Button>Remove</Button>
-      <Button>Edit</Button>
-      <Book category="Economy" title="Capital in theTwenty-First Century" author="Suzanne Collins" />
-      <Button>Comments</Button>
-      <Button>Remove</Button>
-      <Button>Edit</Button>
-    </>
+    <section className="book">
+      <div>
+        {bookItems.map((item) => (
+          <Book
+            key={item.itemId}
+            itemId={item.itemId}
+            title={item.title}
+            author={item.author}
+          />
+        ))}
+
+      </div>
+    </section>
   );
-}
+};
 
 export default BookList;
