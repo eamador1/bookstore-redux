@@ -28,7 +28,8 @@
 
 # 📖 [BOOKSTORE WITH REDUX] <a name="about-project"></a>
 
-**BOOKSTORE WITH REDUX** In this step I use a Redux store to display books. I implement react-redux in order to connect the store and then access the state variables (accessed through useSelector) and state modifiers (which are a combination of a reducer and useDispatch).
+**BOOKSTORE WITH REDUX** In this step, I implement Redux Toolkit inside of the Bookstore React application. I setup a Redux store and create a slice to save the state and reducers
+
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
