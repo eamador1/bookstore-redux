@@ -5,39 +5,38 @@ import { v4 as uuidv4 } from 'uuid';
 import { addBook } from '../redux/books/booksSlice';
 
 function Form() {
-  const dispatch = useDispatch();
   const [title, setTitle] = useState('');
   const [author, setAuthor] = useState('');
+  const dispatch = useDispatch();
 
-  const handleAddBook = (event) => {
-    event.preventDefault();
-    const itemId = uuidv4(); // Generate itemId using uuidv4
-    dispatch(addBook({ title, author, itemId }));
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const newBook = {
+      title,
+      author,
+      category: 'Under construction', // Fixed category
+      item_id: uuidv4(),
+    };
+    dispatch(addBook(newBook));
     setTitle('');
     setAuthor('');
   };
 
   return (
-    <form className="bookForm" onSubmit={handleAddBook}>
+    <form onSubmit={handleSubmit}>
       <input
-        className="title"
-        name="title"
+        type="text"
         placeholder="Book Title"
-        required
         value={title}
         onChange={(e) => setTitle(e.target.value)}
       />
       <input
-        className="author"
-        name="author"
+        type="text"
         placeholder="Author"
-        required
         value={author}
         onChange={(e) => setAuthor(e.target.value)}
       />
-      <button type="submit" className="submit">
-        ADD BOOK
-      </button>
+      <button type="submit">Add Book</button>
     </form>
   );
 }

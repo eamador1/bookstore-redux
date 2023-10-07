@@ -1,3 +1,7 @@
 div {
   display: flex;
 }
+
+button {
+  width: 7%;
+}
