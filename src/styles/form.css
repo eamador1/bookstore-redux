@@ -1,7 +1,42 @@
-div {
-  display: flex;
+form {
+  padding-bottom: 3rem;
+}
+.bookTitle {
+  width: 4rem;
+  height: 1rem;
+  margin: 1.188rem 1.125rem 0 6.25rem;
+  padding: 0.813rem 30.688rem 0.813rem 1.063rem;
+  border-radius: 4px;
+  border: solid 1px #e8e8e8;
+  background-color: var(--white-two);
 }
 
-button {
-  width: 7%;
+.bookAuthor {
+  width: 9rem;
+  height: 1rem;
+  margin: 1.188rem 0.125rem 0 1.25rem;
+  padding: 0.813rem 15rem 0.813rem 1.063rem;
+  border-radius: 4px;
+  border: solid 1px #e8e8e8;
+  background-color: var(--white-two);
+}
+
+.submitButton {
+  width: 11.5rem;
+  font-family: RobotoSlab;
+  font-size: 0.813rem;
+  height: 2.813rem;
+  margin: 1.188rem 0 0 2.125rem;
+  padding: 0.801rem 1.188rem 0.886rem 1.375rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #fff;
+  border-radius: 3px;
+  background-color: #0290ff;
+  border: none;
+  border-radius: 4px;
 }
