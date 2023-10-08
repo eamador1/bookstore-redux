@@ -13,3 +13,9 @@
   letter-spacing: -0.18px;
   color: #888;
 }
+
+.forColor {
+  background-color: rgba(0, 0, 0, 0.05);
+  margin-left: 6.25rem;
+  width: 88.5vw;
+}

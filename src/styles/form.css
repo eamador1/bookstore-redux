@@ -1,17 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200&family=Roboto+Slab:wght@100;300;400;500;600;700;800;900&display=swap');
 
 .submitForm {
+  display: flex;
   padding-bottom: 3rem;
+  justify-content: space-between;
+  width: 94%;
 }
 
 .bookTitle {
-  width: 30rem;
+  width: 28rem;
   height: 1rem;
-  margin: 1.188rem 1.125rem 0 6.25rem;
+  margin: 1.188rem 1.125rem 0 3.25rem;
   padding: 0.813rem 4.688rem 0.813rem 1.063rem;
   border-radius: 4px;
   border: solid 1px #e8e8e8;
   background-color: var(--white-two);
+  background-color: #ffff;
 }
 
 .bookTitle::placeholder {
@@ -32,6 +36,7 @@
   border-radius: 4px;
   border: solid 1px #e8e8e8;
   background-color: var(--white-two);
+  background-color: #fff;
 }
 
 .bookAuthor::placeholder {

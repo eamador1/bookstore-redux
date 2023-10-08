@@ -5,7 +5,7 @@ import '../styles/pagebook.css';
 
 function Books() {
   return (
-    <div>
+    <div className="forColor">
       <BookList />
       <h2 className="titleAddBook">ADD NEW BOOK</h2>
       <Form />

@@ -5,9 +5,10 @@
   display: grid;
   grid-template-columns: 40% 20% 35%;
   grid-template-rows: 1fr;
-  margin: 1rem 8.25rem 0 6.25rem;
+  margin: 1rem 0 0 0;
   border: solid 1px #e8e8e8;
   background-color: #ffff;
+  width: 90%;
 }
 
 .contBook {
@@ -16,6 +17,7 @@
   margin-top: 3vh;
   display: flex;
   flex-direction: column;
+  width: 92%;
 }
 
 .contCircularBar {

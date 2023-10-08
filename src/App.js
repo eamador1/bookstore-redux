@@ -24,34 +24,37 @@ export default function App() {
   };
   return (
     <BrowserRouter>
-      <header>
-        <nav className="panel-bg">
-          <li className="Bookstore-CMS">Bookstore CMS</li>
-          <NavLink
-            to=""
-            activeClassName="active-link"
-            className={`BOOKS ${isBooksActive ? 'active-link' : ''}`}
-            onClick={handleBooksClick}
-          >
-            Books
-          </NavLink>
-          <NavLink
-            to="categories"
-            activeClassName="active-link"
-            className={`CATEGORIES ${isCategoriesActive ? 'active-link' : ''}`}
-            onClick={handleCategoriesClick}
-          >
-            Categories
-          </NavLink>
-          <div className="oval">
-            <SvgUser className="Mask" />
-          </div>
-        </nav>
-      </header>
-      <Routes>
-        <Route path="/" element={<Books />} />
-        <Route path="/categories" element={<Categories />} />
-      </Routes>
+      <div className="wrapper">
+        <header>
+          <nav className="panel-bg">
+            <li className="Bookstore-CMS">Bookstore CMS</li>
+            <NavLink
+              to=""
+              activeClassName="active-link"
+              className={`BOOKS ${isBooksActive ? 'active-link' : ''}`}
+              onClick={handleBooksClick}
+            >
+              Books
+            </NavLink>
+            <NavLink
+              to="categories"
+              activeClassName="active-link"
+              className={`CATEGORIES ${isCategoriesActive ? 'active-link' : ''}`}
+              onClick={handleCategoriesClick}
+            >
+              Categories
+            </NavLink>
+            <div className="oval">
+              <SvgUser className="Mask" />
+            </div>
+          </nav>
+        </header>
+
+        <Routes>
+          <Route path="/" element={<Books />} />
+          <Route path="/categories" element={<Categories />} />
+        </Routes>
+      </div>
     </BrowserRouter>
   );
 }
