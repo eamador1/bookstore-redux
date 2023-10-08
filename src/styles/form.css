@@ -1,15 +1,27 @@
-form {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200&family=Roboto+Slab:wght@100;300;400;500;600;700;800;900&display=swap')
+
+  form {
   padding-bottom: 3rem;
 }
 
 .bookTitle {
-  width: 4rem;
+  width: 30rem;
   height: 1rem;
   margin: 1.188rem 1.125rem 0 6.25rem;
-  padding: 0.813rem 30.688rem 0.813rem 1.063rem;
+  padding: 0.813rem 4.688rem 0.813rem 1.063rem;
   border-radius: 4px;
   border: solid 1px #e8e8e8;
   background-color: var(--white-two);
+}
+
+.bookTitle::placeholder {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.15px;
 }
 
 .bookAuthor {
@@ -20,6 +32,16 @@ form {
   border-radius: 4px;
   border: solid 1px #e8e8e8;
   background-color: var(--white-two);
+}
+
+.bookAuthor::placeholder {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.15px;
 }
 
 .submitButton {
