@@ -1,6 +1,7 @@
 form {
   padding-bottom: 3rem;
 }
+
 .bookTitle {
   width: 4rem;
   height: 1rem;
@@ -23,7 +24,7 @@ form {
 
 .submitButton {
   width: 11.5rem;
-  font-family: RobotoSlab;
+  font-family: 'Roboto Slab', serif;
   font-size: 0.813rem;
   height: 2.813rem;
   margin: 1.188rem 0 0 2.125rem;
@@ -35,8 +36,7 @@ form {
   letter-spacing: 0.5px;
   text-align: center;
   color: #fff;
-  border-radius: 3px;
+  border-radius: 4px;
   background-color: #0290ff;
   border: none;
-  border-radius: 4px;
 }

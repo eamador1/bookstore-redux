@@ -28,7 +28,7 @@ nav {
   width: 15rem;
   height: 2.313rem;
   margin: 0.375rem 2.938rem 0.125rem 0;
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.875rem;
   font-weight: bold;
   font-stretch: normal;
@@ -43,7 +43,7 @@ nav {
   height: 1rem;
   margin: 1.125rem 2.563rem 0.688rem 0;
   opacity: 0.5;
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;
   font-size: 0.813rem;
   font-weight: normal;
   font-stretch: normal;
@@ -58,7 +58,7 @@ nav {
   height: 1rem;
   margin: 1.125rem 41.5rem 0.688rem 2.563rem;
   opacity: 0.5;
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;
   font-size: 0.813rem;
   font-weight: normal;
   font-stretch: normal;
@@ -82,8 +82,8 @@ nav {
   border: solid 1px #e8e8e8;
   border-radius: 50%;
   margin-top: 0;
-  }
-  
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -94,4 +94,3 @@ nav {
   font-size: calc(10px + 2vmin);
   color: white;
 }
-

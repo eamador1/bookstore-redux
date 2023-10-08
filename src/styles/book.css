@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200&family=Roboto+Slab:wght@100;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200&display=swap');
 
 .contBookSurrounding {
@@ -10,7 +11,7 @@
 }
 
 .contBook {
-  grid-area: 1/1/2/2; 
+  grid-area: 1/1/2/2;
   height: 10.625rem;
   margin-top: 3vh;
   display: flex;
@@ -23,8 +24,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background:#ffff;
-
+  background: #ffff;
 }
 
 .category {
@@ -32,7 +32,7 @@
   height: 1.125rem;
   margin: 0.5rem 2.438rem 0 1.688rem;
   opacity: 0.5;
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;
   font-size: 0.875rem;
   font-weight: bold;
   font-stretch: normal;
@@ -46,7 +46,7 @@
   width: 12.313rem;
   height: 1.813rem;
   margin: 0.188rem 20.188rem 0 1.688rem;
-  font-family: RobotoSlab;
+  font-family: 'Roboto Slab', serif;
   font-size: 1.375rem;
   font-weight: bold;
   font-stretch: normal;
@@ -60,7 +60,7 @@
   width: 6.688rem;
   height: 1.188rem;
   margin: 0 0 1.75rem 1.688rem;
-  font-family: RobotoSlab;
+  font-family: 'Roboto Slab', serif;
   font-size: 0.875rem;
   font-weight: 300;
   font-stretch: normal;
@@ -79,8 +79,8 @@
   width: 4.563rem;
   height: 1.188rem;
   margin: 0.188rem 0.938rem 0.125rem 0;
-  padding: 0rem 1rem 0rem 0;
-  font-family: RobotoSlab;
+  padding: 0 1rem 0 0;
+  font-family: 'Roboto Slab', serif;
   font-size: 0.875rem;
   font-weight: 300;
   font-stretch: normal;
@@ -97,8 +97,8 @@
   width: 4.563rem;
   height: 1.188rem;
   margin: 0.188rem 0.938rem 0.125rem 0;
-  padding: 0rem 1rem 0rem 0;
-  font-family: RobotoSlab;
+  padding: 0 1rem 0 0;
+  font-family: 'Roboto Slab', serif;
   font-size: 0.875rem;
   font-weight: 300;
   font-stretch: normal;
@@ -115,8 +115,8 @@
   width: 4.563rem;
   height: 1.188rem;
   margin: 0.188rem 0.938rem 0.125rem 0;
-  padding: 0rem 1rem 0rem 0;
-  font-family: RobotoSlab;
+  padding: 0 1rem 0 0;
+  font-family: 'Roboto Slab', serif;
   font-size: 0.875rem;
   font-weight: 300;
   font-stretch: normal;
@@ -137,6 +137,11 @@
   border: 1px solid #cdcbd0;
 }
 
+.mask .fill {
+  clip: rect(0, 100px, 100px, 0);
+  background-color: #227ded;
+}
+
 .circle-wrap .circle,
 .circle-wrap .circle .fill {
   width: 4.25rem;
@@ -145,19 +150,15 @@
   border-radius: 50%;
 }
 
-.mask .fill {
-  clip: rect(0px, 100px, 100px, 0px);
-  background-color: #227ded;
-}
-
 .circle-wrap .circle .mask {
-  clip: rect(0px, 4.25rem, 4.25rem, 2.125rem);
+  clip: rect(0, 4.25rem, 4.25rem, 2.125rem);
 }
 
-@keyframes fill{
+@keyframes fill {
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(135deg);
   }
@@ -177,7 +178,7 @@
   z-index: 100;
   font-weight: 700;
   font-size: 2em;
-} 
+}
 
 .Advance {
   display: flex;
@@ -193,7 +194,7 @@
   width: 4.25rem;
   height: 2.438rem;
   margin: 0.063rem 5.75rem 0 0.688rem;
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;
   font-size: 2rem;
   font-weight: normal;
   font-stretch: normal;
@@ -207,7 +208,7 @@
   height: 1.125rem;
   margin: 0.438rem 4.938rem 0.75rem 0.75rem;
   opacity: 0.5;
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;
   font-size: 0.875rem;
   font-weight: normal;
   font-stretch: normal;
@@ -240,7 +241,7 @@
   height: 1.125rem;
   margin: 0.063rem 3.625rem 0 3.688rem;
   opacity: 0.5;
-  font-family: RobotoSlab;
+  font-family: 'Roboto Slab', serif;
   font-size: 0.813rem;
   font-weight: 300;
   font-stretch: normal;
@@ -254,7 +255,7 @@
   width: 13.25rem;
   height: 1.313rem;
   margin: 0.438rem 0 0.25rem 3.688rem;
-  font-family: RobotoSlab;
+  font-family: 'Roboto Slab', serif;
   font-size: 1rem;
   font-weight: 300;
   font-stretch: normal;
@@ -274,7 +275,3 @@
   border: none;
   color: #ffff;
 }
-
-
-
-
