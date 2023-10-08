@@ -1,10 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200&display=swap');
+
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f5f6fa;
 }
 
 ul,
@@ -15,15 +14,76 @@ a {
   color: inherit;
 }
 
-.active {
-  color: #0290ff;
-  text-decoration: underline;
-}
-
 nav {
   display: flex;
+  align-items: center;
+  height: 5.938rem;
+  margin: 0 0 2.375rem;
+  padding: 0 6.188rem 0 6.25rem;
+  background-color: var(--white-two);
+  border-bottom: solid 1px #e8e8e8;
 }
 
+.Bookstore-CMS {
+  width: 15rem;
+  height: 2.313rem;
+  margin: 0.375rem 2.938rem 0.125rem 0;
+  font-family: Montserrat;
+  font-size: 1.875rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #0290ff;
+}
+
+.BOOKS {
+  width: 3.688rem;
+  height: 1rem;
+  margin: 1.125rem 2.563rem 0.688rem 0;
+  opacity: 0.5;
+  font-family: Montserrat;
+  font-size: 0.813rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.9px;
+  color: var(--black-two);
+}
+
+.CATEGORIES {
+  width: 6.563rem;
+  height: 1rem;
+  margin: 1.125rem 41.5rem 0.688rem 2.563rem;
+  opacity: 0.5;
+  font-family: Montserrat;
+  font-size: 0.813rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.9px;
+  color: var(--black-two);
+}
+
+.active-link {
+  text-decoration: none;
+  opacity: 1;
+}
+
+.oval {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2.813rem;
+  height: 2.813rem;
+  border: solid 1px #e8e8e8;
+  border-radius: 50%;
+  margin-top: 0;
+  }
+  
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -35,16 +95,3 @@ nav {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
-}
