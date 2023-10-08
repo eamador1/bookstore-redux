@@ -25,18 +25,20 @@ function Form() {
   return (
     <form onSubmit={handleSubmit}>
       <input
+        className="bookTitle"
         type="text"
         placeholder="Book Title"
         value={title}
         onChange={(e) => setTitle(e.target.value)}
       />
       <input
+        className="bookAuthor"
         type="text"
         placeholder="Author"
         value={author}
         onChange={(e) => setAuthor(e.target.value)}
       />
-      <button type="submit">Add Book</button>
+      <button className="submitButton" type="submit">Add Book</button>
     </form>
   );
 }
