@@ -28,6 +28,7 @@ body {
 nav {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   height: 5.938rem;
   margin: 9.13rem 0 0 6.25rem;
   padding: 0 0 0 0;
@@ -68,7 +69,7 @@ nav {
 .CATEGORIES {
   width: 6.563rem;
   height: 1rem;
-  margin: 1.125rem 41.5rem 0.688rem 2.563rem;
+  margin: 1.125rem 25.5rem 0.688rem 2.563rem;
   opacity: 0.5;
   font-family: 'Montserrat', sans-serif;
   font-size: 0.813rem;
@@ -93,7 +94,7 @@ nav {
   height: 2.813rem;
   border: solid 1px #e8e8e8;
   border-radius: 50%;
-  margin-right: 0.25rem;
+  margin-right: 4.25rem;
 }
 
 .App-header {
