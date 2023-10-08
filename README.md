@@ -28,7 +28,7 @@
 
 # 📖 [BOOKSTORE WITH REDUX] <a name="about-project"></a>
 
-**BOOKSTORE WITH REDUX** Now that that functionality is done, in this project I add styling.
+**BOOKSTORE WITH REDUX** Now that that functionality is done, in this project I add styling according to given design.
 
 ## 🛠 Built With <a name="built-with"></a>
 
