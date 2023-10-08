@@ -28,7 +28,7 @@
 
 # 📖 [BOOKSTORE WITH REDUX] <a name="about-project"></a>
 
-**BOOKSTORE WITH REDUX** In this project, I connect your React & Redux application to an existing API to create and remove books from a server.
+**BOOKSTORE WITH REDUX** Now that that functionality is done, in this project I add styling.
 
 ## 🛠 Built With <a name="built-with"></a>
 
