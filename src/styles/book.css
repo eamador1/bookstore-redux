@@ -130,55 +130,9 @@
   background-color: #fff;
 }
 
-.circle-wrap {
-  width: 4.25rem;
-  height: 4.25rem;
-  background: #ffff;
-  border-radius: 50%;
-  border: 1px solid #cdcbd0;
-}
-
-.mask .fill {
-  clip: rect(0, 100px, 100px, 0);
-  background-color: #227ded;
-}
-
-.circle-wrap .circle,
-.circle-wrap .circle .fill {
-  width: 4.25rem;
-  height: 4.25rem;
-  position: absolute;
-  border-radius: 50%;
-}
-
-.circle-wrap .circle .mask {
-  clip: rect(0, 4.25rem, 4.25rem, 2.125rem);
-}
-
-@keyframes fill {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  100% {
-    transform: rotate(135deg);
-  }
-}
-
-.circle-wrap .inside-circle {
-  width: 3.5rem;
-  height: 3.5rem;
-  border-radius: 50%;
-  background: #ffff;
-  line-height: 3.5rem;
-  text-align: center;
-  margin-top: 0.4rem;
-  margin-left: 0.4rem;
-  color: #1e51dc;
-  position: absolute;
-  z-index: 100;
-  font-weight: 700;
-  font-size: 2em;
+.containerVisualAdvance {
+  display: flex;
+  align-items: center;
 }
 
 .Advance {
