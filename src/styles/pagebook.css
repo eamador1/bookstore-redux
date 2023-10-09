@@ -16,6 +16,8 @@
 
 .forColor {
   background-color: rgba(0, 0, 0, 0.05);
-  margin-left: 6.25rem;
+  margin-left: 5.25rem;
   width: 88.5vw;
+  padding-bottom: 10rem;
+  z-index: 100;
 }
