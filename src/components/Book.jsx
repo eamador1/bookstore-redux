@@ -2,7 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { useDispatch } from 'react-redux';
 import '../styles/book.css';
+import { CircularProgressbar } from 'react-circular-progressbar';
 import { removeBook } from '../redux/books/booksSlice';
+import 'react-circular-progressbar/dist/styles.css';
 
 const Book = ({ item }) => {
   const dispatch = useDispatch();
@@ -15,11 +17,7 @@ const Book = ({ item }) => {
       <div className="contBook">
         <span className="category">Action</span>
         <h3 className="Title">{item.title}</h3>
-        <span className="Suzanne-Collins">
-          Author:
-          {' '}
-          {item.author}
-        </span>
+        <span className="Suzanne-Collins">{item.author}</span>
         <div className="allButtons">
           <button className="CommentsButton" type="button">Comments</button>
           <button className="RemoveButton" type="button" onClick={handleDelete}>
@@ -28,22 +26,15 @@ const Book = ({ item }) => {
           <button className="EditButton" type="button">Edit</button>
         </div>
       </div>
+
       <div className="Advance">
-        <div className="contCircularBar">
-          <div className="circle-wrap">
-            <div className="circle">
-              <div className="mask half">
-                <div className="fill">
-                  <div className="mask full">
-                    <div className="inside-circle" />
-                  </div>
-                </div>
-              </div>
-            </div>
+        <div className="containerVisualAdvance">
+          <div style={{ width: 68, height: 68 }}>
+            <CircularProgressbar value={68} />
           </div>
         </div>
         <div className="textAdvance">
-          <span className="numericalAdvance">100%</span>
+          <span className="numericalAdvance">68%</span>
           <span className="completed">Completed</span>
         </div>
       </div>
