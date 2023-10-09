@@ -7,7 +7,7 @@ import {
 import Books from './pages/Books';
 import Categories from './pages/Categories';
 
-import SvgUser from './imageComponents/UserIcon.tsx';
+import SvgUser from './imageComponents/UserIcon';
 
 export default function App() {
   const [isBooksActive, setIsBooksActive] = useState(false);
@@ -55,6 +55,7 @@ export default function App() {
           <Route path="/categories" element={<Categories />} />
         </Routes>
       </div>
+      <div className="Shadow" />
     </BrowserRouter>
   );
 }
