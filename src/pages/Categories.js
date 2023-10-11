@@ -1,9 +1,10 @@
 import React from 'react';
+import '../styles/categories.css';
 
 function Categories() {
   return (
     <div>
-      <p>Under Construction</p>
+      <p className="construction">Under Construction</p>
     </div>
   );
 }

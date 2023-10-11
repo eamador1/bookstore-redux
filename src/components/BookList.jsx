@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { fetchBooks } from '../redux/books/booksSlice';
 import Book from './Book';
+import '../styles/bookList.css';
 
 const BookList = () => {
   const dispatch = useDispatch();
@@ -12,7 +13,7 @@ const BookList = () => {
   }, [dispatch]);
 
   return (
-    <section className="book">
+    <section className="bookList">
       <div>
         {books.map((item) => ((
           <Book

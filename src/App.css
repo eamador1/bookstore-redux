@@ -1,10 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200&display=swap');
+
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f5f6fa;
 }
 
 ul,
@@ -15,13 +14,87 @@ a {
   color: inherit;
 }
 
-.active {
-  color: #0290ff;
-  text-decoration: underline;
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 11.75rem;
+}
+
+body {
+  background-color: #f5f6fa;
+  min-height: 100vh;
 }
 
 nav {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 5.938rem;
+  margin: 9.31rem 0 0 5.25rem;
+  padding: 0 0 0 0;
+  background-color: #ffff;
+  border-bottom: solid 1px #e8e8e8;
+  width: 88.5vw;
+}
+
+.Bookstore-CMS {
+  width: 15rem;
+  height: 2.313rem;
+  margin: 0.375rem 2.938rem 0.125rem 3.25rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.875rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #0290ff;
+}
+
+.BOOKS {
+  width: 3.688rem;
+  height: 1rem;
+  margin: 1.125rem 2.563rem 0.688rem 0;
+  opacity: 0.5;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.813rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.9px;
+  color: var(--black-two);
+}
+
+.CATEGORIES {
+  width: 6.563rem;
+  height: 1rem;
+  margin: 1.125rem 25.5rem 0.688rem 2.563rem;
+  opacity: 0.5;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.813rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.9px;
+  color: #121212;
+}
+
+.active-link {
+  text-decoration: none;
+  opacity: 1;
+}
+
+.oval {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2.813rem;
+  height: 2.813rem;
+  border: solid 1px #e8e8e8;
+  border-radius: 50%;
+  margin-right: 4.25rem;
 }
 
 .App-header {
@@ -35,16 +108,17 @@ nav {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
+.Shadow {
+  position: absolute;
+  top: 18.625rem;
+  width: 85rem;
+  height: 40rem;
+  border: solid 1px red;
+  margin: 9.313rem 0 0 4.938rem;
+  padding: 10.563rem 8.688rem 20.625rem 1.313rem;
+  opacity: 0.2;
+  border-radius: 4px;
+  -webkit-filter: blur(50px);
+  filter: blur(50px);
+  background-color: #000;
 }

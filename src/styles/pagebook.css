@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200&display=swap');
+
+.titleAddBook {
+  width: 20.875rem;
+  height: 1.5rem;
+  margin: 1.813rem 32.75rem 1.188rem 3.25rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.25rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.18px;
+  color: #888;
+}
+
+.forColor {
+  background-color: rgba(0, 0, 0, 0.05);
+  margin-left: 5.25rem;
+  width: 88.5vw;
+  padding-bottom: 10rem;
+  z-index: 100;
+}
