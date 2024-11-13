@@ -17,6 +17,7 @@
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
+  - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -88,6 +89,8 @@ Initialize it with:
 ```
 npm run
 ```
+
+### Deployment <a name="deployment">
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
