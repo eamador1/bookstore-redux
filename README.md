@@ -92,6 +92,8 @@ npm run
 
 ### Deployment <a name="deployment">
 
+  https://eamador1-bookstore-react-redux.netlify.app/
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
